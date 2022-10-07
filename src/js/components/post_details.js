@@ -21,7 +21,7 @@ detailsOfPost();
 function postDetails(details) {
   document.title = details.title.rendered;
   detailsConteiner.innerHTML = `      
- <div class="container text-center">
+ <div class="container text-left">
 ${details.title.rendered}
 ${details.content.rendered}
 </div>
