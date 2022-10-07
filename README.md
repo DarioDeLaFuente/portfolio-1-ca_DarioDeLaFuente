@@ -1,27 +1,8 @@
 # Portfolio
 
-![image]()
+![image](https://schoolassignment.adaptmedia.net/app/uploads/2022/10/Screenshot-2022-10-07-at-22.13.53-1.png)
 
 This is a simple overview of the use/purpose of the project.
-
-## Description
-
-A detailed description of what the project entails and set out to do.
-The project exam reflects my creative and technical knowledge and skills based on the first semester curriculum. This includes design principles, project management, communication technology, and developing with HTML/CSS.
-
-This are some bullet points:
-
-- 
-- 
-
-
-## This is the exam brief:
-I have been tasked with creating a blog site. I choose to design a art blog, contains the following pages:
--	
--	
--	
-
-
 
 ### WordPress
 
@@ -80,7 +61,7 @@ npm install
 docker-compose stop
 ```
 
-## Link to the site: https://vermillion-donut-4575b5.netlify.app/index.html 
+## Link to the site: https://sensational-monstera-882cb2.netlify.app/
 
 ## Contact
 
