@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/scss:dist/css",
+    "build": "npm install && sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css"
   },
   "keywords": [
