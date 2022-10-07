@@ -12,8 +12,6 @@ The project has two aspects:
 -	API from your WordPress installation
 -	Your website built with HTML, CSS and JavaScript
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
-
 
 ## Built With
 
