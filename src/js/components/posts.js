@@ -10,8 +10,6 @@ async function getPosts() {
     document.title = "lodding | Portfolio";
     const response = await fetch(wpUrl + "?page=" + pageNumber);
     maxPageNumber = parseInt(response.headers.get("x-wp-totalpages"));
-
-    console.log(pageNumber, maxPageNumber, pageNumber >= maxPageNumber);
     if (pageNumber >= maxPageNumber) {
     }
     pageNumber++;
@@ -33,8 +31,6 @@ function postsListDetails(posts) {
     const postDate = posts[i];
     const date = new Date(postDate.date);
     const formattedDate = date.toLocaleDateString();
-    console.log(formattedDate);
-    console.log(posts[i]);
     postsConteiner.innerHTML += `
     <div class="col">
     <a href="/post-project-results.html?post_id=${posts[i].id}"> 

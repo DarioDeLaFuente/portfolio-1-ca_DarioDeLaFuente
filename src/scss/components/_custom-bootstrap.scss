@@ -189,7 +189,7 @@ a {
 
 //
 .portfolio-text {
-  margin-top: 150px;
+  margin-top: 10px;
 }
 //
 .portfolio-text-label {
@@ -198,4 +198,20 @@ a {
 .portfolio-img-thumbnai {
   box-shadow: 0px 5px 36px 0px rgba(0, 0, 0, 0.396);
   border-radius: 5px;
+}
+
+@media (min-width: $layout-breakpoint-xl) {
+  .portfolio-text {
+    margin-top: 10px;
+  }
+}
+@media (min-width: $layout-breakpoint-med) {
+  .portfolio-text {
+    margin-top: 75px;
+  }
+}
+@media (min-width: $layout-breakpoint-small) {
+  .portfolio-text {
+    margin-top: 185px;
+  }
 }
