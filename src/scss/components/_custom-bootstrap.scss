@@ -168,6 +168,14 @@ a {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity));
 }
 
+.about {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity));
+}
+.about:hover {
+  color: var(--bs-danger);
+}
+
 //
 .text-left {
   margin-top: 50px;
