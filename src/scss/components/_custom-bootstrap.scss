@@ -161,7 +161,10 @@ a {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
-
+//
+.ph-item-height {
+  height: 350px;
+}
 //
 .text-white {
   --bs-text-opacity: 1;

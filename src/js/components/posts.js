@@ -26,6 +26,7 @@ async function getPosts() {
 getPosts(pageNumber);
 
 function postsListDetails(posts) {
+  postsConteiner.innerHTML = "";
   for (let i = 0; i < posts.length; i++) {
     document.title = posts[i].id;
     const postDate = posts[i];
